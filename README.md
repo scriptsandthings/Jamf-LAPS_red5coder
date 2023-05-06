@@ -21,3 +21,5 @@ In the interim this app will allow you too:
   - View Local Admin Password Audit History
 
 ### PLEASE NOTE THIS IS CURRENTLY IN BETA
+
+<img width="612" alt="jamf-laps-screenshot" src="https://user-images.githubusercontent.com/29920386/236643193-f85c9277-1f7c-4edd-a5b9-f19861fb44d2.png">
