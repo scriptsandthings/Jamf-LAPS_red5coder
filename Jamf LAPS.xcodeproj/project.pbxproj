@@ -11,6 +11,7 @@
 		FB1055AB2A042CAB00E16444 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1055AA2A042CAB00E16444 /* ContentView.swift */; };
 		FB1055AD2A042CAC00E16444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1055AC2A042CAC00E16444 /* Assets.xcassets */; };
 		FB1055B02A042CAC00E16444 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1055AF2A042CAC00E16444 /* Preview Assets.xcassets */; };
+		FB449B282A07B0F400A2C65D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB449B272A07B0F400A2C65D /* Logger.swift */; };
 		FB5E5DC12A06ACD200628347 /* JamfProApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5E5DC02A06ACD200628347 /* JamfProApi.swift */; };
 		FBCE00662A059EC4008779EF /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE00652A059EC4008779EF /* Keychain.swift */; };
 /* End PBXBuildFile section */
@@ -22,6 +23,7 @@
 		FB1055AC2A042CAC00E16444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB1055AF2A042CAC00E16444 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB1055B12A042CAC00E16444 /* Jamf_LAPS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jamf_LAPS.entitlements; sourceTree = "<group>"; };
+		FB449B272A07B0F400A2C65D /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		FB5E5DC02A06ACD200628347 /* JamfProApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamfProApi.swift; sourceTree = "<group>"; };
 		FBCE00652A059EC4008779EF /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +65,7 @@
 				FB1055AE2A042CAC00E16444 /* Preview Content */,
 				FBCE00652A059EC4008779EF /* Keychain.swift */,
 				FB5E5DC02A06ACD200628347 /* JamfProApi.swift */,
+				FB449B272A07B0F400A2C65D /* Logger.swift */,
 			);
 			path = "Jamf LAPS";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB449B282A07B0F400A2C65D /* Logger.swift in Sources */,
 				FB5E5DC12A06ACD200628347 /* JamfProApi.swift in Sources */,
 				FB1055AB2A042CAB00E16444 /* ContentView.swift in Sources */,
 				FB1055A92A042CAB00E16444 /* Jamf_LAPSApp.swift in Sources */,
@@ -276,7 +280,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Jamf LAPS/Jamf_LAPS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_ASSET_PATHS = "\"Jamf LAPS/Preview Content\"";
 				DEVELOPMENT_TEAM = VR4GB7TBDP;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -288,7 +292,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 0.9;
+				MARKETING_VERSION = 0.9.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.mallion.jamf-laps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -304,7 +308,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Jamf LAPS/Jamf_LAPS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_ASSET_PATHS = "\"Jamf LAPS/Preview Content\"";
 				DEVELOPMENT_TEAM = VR4GB7TBDP;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -316,7 +320,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 0.9;
+				MARKETING_VERSION = 0.9.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.mallion.jamf-laps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

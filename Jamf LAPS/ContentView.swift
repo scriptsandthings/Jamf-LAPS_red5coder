@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import os.log
 
 struct ContentView: View {
     
@@ -295,7 +296,7 @@ struct ContentView: View {
             return
         }
         
-        let (password, passwordResponse) = await jamfPro.getLAPSPassword(jssURL: jamfURL, authToken: authToken.token, managementId: managementID)
+        let (password, passwordResponse) = await jamfPro.getLAPSPassword(jssURL: jamfURL, authToken: authToken.token, managementId: managementID, username: lapsUserName)
         
         guard let password else {
             alertMessage = "Could not retrieve the password, please check the serial number and laps user name."
@@ -351,7 +352,8 @@ struct ContentView: View {
 
     
     func fetchSettings() async {
-        
+
+
         passwordRotationTimeChanged = false
         autoExpirationTimeChanged = false
         enableLAPSChanged = false
