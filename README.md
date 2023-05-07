@@ -22,4 +22,12 @@ In the interim this app will allow you too:
 
 ### PLEASE NOTE THIS IS CURRENTLY IN BETA
 
+### History
+
+- 0.9 , Initial release
+- 0.9.1
+  - Added logging. Use `sudo log stream --info --predicate 'subsystem=="uk.co.mallion.jamf-laps"'` to view the logs
+  - Fixed an issue where the LAPS user name was not being passed correctly. 
+
+
 <img width="612" alt="jamf-laps-screenshot" src="https://user-images.githubusercontent.com/29920386/236643193-f85c9277-1f7c-4edd-a5b9-f19861fb44d2.png">
